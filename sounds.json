@@ -1,0 +1,67 @@
+{
+  "armorequip": {
+    "subtitle": "subtitles.immersiveaudio.armorequip",
+    "sounds": [
+      "immersiveaudio:armorequip0",
+      "immersiveaudio:armorequip1",
+      "immersiveaudio:armorequip2",
+      "immersiveaudio:armorequip3",
+      "immersiveaudio:armorequip4",
+      "immersiveaudio:armorequip5",
+      "immersiveaudio:armorequip6"
+    ]
+  },
+  "explosion": {
+    "subtitle": "subtitles.entity.generic.explode",
+    "sounds": [
+      "immersiveaudio:explosion1",
+      "immersiveaudio:explosion2",
+      "immersiveaudio:explosion3",
+      "immersiveaudio:explosion4",
+      "immersiveaudio:explosion5"
+    ]
+  },
+  "explosiondistant": {
+    "subtitle": "subtitles.immersiveaudio.explosiondistant",
+    "sounds": [
+      "immersiveaudio:explosiondistant1",
+      "immersiveaudio:explosiondistant2",
+      "immersiveaudio:explosiondistant3",
+      "immersiveaudio:explosiondistant4",
+      "immersiveaudio:explosiondistant5"
+    ]
+  },
+  "guitar": {
+    "subtitle": "subtitles.immersiveaudio.guitar",
+    "sounds": [
+      "immersiveaudio:guitar0",
+      "immersiveaudio:guitar1",
+      "immersiveaudio:guitar2",
+      "immersiveaudio:guitar3",
+      "immersiveaudio:guitar4",
+      "immersiveaudio:guitar5",
+      "immersiveaudio:guitar6",
+      "immersiveaudio:guitar7"
+    ]
+  },
+  "zip": {
+    "subtitle": "subtitles.immersiveaudio.zip",
+    "sounds": [
+      "immersiveaudio:zip1",
+      "immersiveaudio:zip2",
+      "immersiveaudio:zip3"
+    ]
+  },
+  "gasbreath": {
+    "sounds": [
+      "immersiveaudio:gasbreath1",
+      "immersiveaudio:gasbreath2",
+      "immersiveaudio:gasbreath3",
+      "immersiveaudio:gasbreath4",
+      "immersiveaudio:gasbreath5",
+      "immersiveaudio:gasbreath6",
+      "immersiveaudio:gasbreath7",
+      "immersiveaudio:gasbreath8"
+    ]
+  }
+}
