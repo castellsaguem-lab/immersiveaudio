@@ -11,26 +11,6 @@
       "immersiveaudio:armorequip6"
     ]
   },
-  "explosion": {
-    "subtitle": "subtitles.entity.generic.explode",
-    "sounds": [
-      "immersiveaudio:explosion1",
-      "immersiveaudio:explosion2",
-      "immersiveaudio:explosion3",
-      "immersiveaudio:explosion4",
-      "immersiveaudio:explosion5"
-    ]
-  },
-  "explosiondistant": {
-    "subtitle": "subtitles.immersiveaudio.explosiondistant",
-    "sounds": [
-      "immersiveaudio:explosiondistant1",
-      "immersiveaudio:explosiondistant2",
-      "immersiveaudio:explosiondistant3",
-      "immersiveaudio:explosiondistant4",
-      "immersiveaudio:explosiondistant5"
-    ]
-  },
   "guitar": {
     "subtitle": "subtitles.immersiveaudio.guitar",
     "sounds": [

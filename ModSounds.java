@@ -11,8 +11,6 @@ public class ModSounds {
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, ImmersiveAudio.MODID);
 
     public static final RegistryObject<SoundEvent> ARMOR_EQUIP = register("armorequip");
-    public static final RegistryObject<SoundEvent> EXPLOSION = register("explosion");
-    public static final RegistryObject<SoundEvent> EXPLOSION_DISTANT = register("explosiondistant");
     public static final RegistryObject<SoundEvent> GUITAR = register("guitar");
     public static final RegistryObject<SoundEvent> ZIP = register("zip");
     public static final RegistryObject<SoundEvent> GAS_BREATH = register("gasbreath");
