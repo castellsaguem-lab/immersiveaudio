@@ -23,10 +23,21 @@ jobs:
           mkdir mdk
           unzip -q mdk.zip -d mdk
 
-      - name: Meter el codigo del mod
+      - name: Colocar archivos en su sitio
         run: |
+          B=mdk/src/main
           rm -rf mdk/src
-          cp -r src mdk/src
+          mkdir -p $B/java/com/immersiveaudio/client
+          mkdir -p $B/resources/META-INF
+          mkdir -p $B/resources/assets/immersiveaudio/sounds
+          mkdir -p $B/resources/assets/immersiveaudio/lang
+          cp ImmersiveAudio.java ModSounds.java ArmorEquipHandler.java $B/java/com/immersiveaudio/
+          cp ClientHandler.java GasMaskBreathHandler.java GasMaskBreathSound.java GasMaskHelper.java $B/java/com/immersiveaudio/client/
+          cp mods.toml $B/resources/META-INF/
+          cp pack.mcmeta $B/resources/
+          cp sounds.json $B/resources/assets/immersiveaudio/
+          cp en_us.json es_es.json $B/resources/assets/immersiveaudio/lang/
+          cp *.ogg $B/resources/assets/immersiveaudio/sounds/
           sed -i \
             -e 's/^mod_id=.*/mod_id=immersiveaudio/' \
             -e 's/^mod_name=.*/mod_name=Immersive Audio/' \
