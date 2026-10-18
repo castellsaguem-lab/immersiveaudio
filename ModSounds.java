@@ -13,6 +13,7 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> ARMOR_EQUIP = register("armorequip");
     public static final RegistryObject<SoundEvent> GUITAR = register("guitar");
     public static final RegistryObject<SoundEvent> ZIP = register("zip");
+    public static final RegistryObject<SoundEvent> ZIP_REVERSE = register("zipreverse");
     public static final RegistryObject<SoundEvent> GAS_BREATH = register("gasbreath");
 
     private static RegistryObject<SoundEvent> register(String name) {

@@ -43,5 +43,12 @@
       "immersiveaudio:gasbreath7",
       "immersiveaudio:gasbreath8"
     ]
+  },
+  "zipreverse": {
+    "sounds": [
+      "immersiveaudio:zipreverse1",
+      "immersiveaudio:zipreverse2",
+      "immersiveaudio:zipreverse3"
+    ]
   }
 }
